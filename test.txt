@@ -1,0 +1,43 @@
+Jenkins, Travis CI , Circle CI are continuous integration tools.
+Containerization -> docker
+Orchestration using Kubernetes.
+Config management ansible , chef and Puppet.
+Real time monitoring is enabled by Prometheus, Grafana and Nagios.
+ELK stack(Elastic search, Logstash, Kibana handles logging and analytics.
+IaC is implemented with Terraform and CloudFormation for automated infrastructure provisioning.
+Testing tools used are Junit, TestNG.
+Collaboration-communication is fostered by tools like Slack and Microsoft teams.
+Code based colab -> Github,gitlab, bitbucket, Mercurial.
+Global Information Tracker.
+git pull automatically performs git fetch and git merge into the local repository from the remote.
+To create a new branch : git branch new-feature
+To switch between branches : git checkout new-feature or git switch new-feature.
+To merge branches :
+git checkout main # switch to branch to which we want to merge
+git merge new-feature.
+To delete a branch :
+git branch -d new-feature.
+We use fork so as to keep a copy of og repo from git into our own account and we use this command:
+ git remote add upstream <og_repo_url> # to keep the cloned repo upto date with the forked one.
+Discard changes in your working directory :
+git checkout -- <file(s)>
+Unstaged changes from the staging area : git reset HEAD <file(s)>
+git commit –amend : amend the last commit with new changes.
+git revert <commit_hash> : revert a commit by creating a new commit.
+git log
+git show <commit_hash>
+git diff <source_branch> <target_branch>
+git remote add <remote_name> <repo_url>
+git remote -v # lists remote repos
+git remote remove <remote_name>
+Build automation tools:
+1.maven, 2.gradle,3.ant,….
+Testing :
+Unit testing : Junit,pytest,NUnit(.Net),Mocha(JavaScript).
+Integration testing tools:
+Apache JMeter,Postman and SoapUI.
+Functional Testing tools :
+Selenium,Appium and TestCafe.
+Idempotent Operations: Applying the same configuration multiple times results in the same outcome. Ansible does that.
+Ansible powerful tool used for configuration management,app deployment and task automation.
+Ansible Playbook are YAML files that combined ansible modules to automate complex workflows and configurations they basically contains instructions for tasks that ansible executes on the target hosts.
